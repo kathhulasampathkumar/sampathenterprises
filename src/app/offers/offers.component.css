@@ -1,0 +1,132 @@
+
+    /* offers css */
+    
+
+ body{
+    margin-top:20px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid wheat;
+    border-radius: 25px;
+}
+
+h4{
+    color:red;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(26, 236, 61), 0 0 5px rgb(198, 240, 12);
+}
+
+
+
+h5{
+    color: blue;
+    font-weight: bolder;
+}
+.h-title{
+ border-bottom:1px solid #eee;
+ padding-bottom:5px;
+
+}
+.block {
+    margin-bottom: 35px;
+}
+
+
+.thumbnail {
+    background: none;
+    position: relative;
+    border: 0;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.thumbnail .caption {
+    padding: 12px 0 0 0;
+    color: #333;
+}
+
+.thumbnail .caption h6 small {
+    display: block;
+    margin-top: 4px;
+}
+
+.thumbnail .caption h6, .thumbnail .caption .h6 {
+    font-size: 14px;
+}
+
+.icons-group a {
+    color: #555;
+}
+
+.thumb-zoom img:hover {
+    /* opacity: 0.7; */
+     
+    cursor: pointer;
+    border-radius: 0px;
+  transform: scale(1.2, 1.2);
+  transition-timing-function: ease-out;
+   transform: scale(1.2, 1.2);
+   transition-timing-function: ease-out;
+   transform: scale(1.20, 1.20);
+   transition-timing-function: ease-out;
+
+   transition-duration: 500ms;
+   transition-duration: 500ms;
+   transition-duration: 500ms;
+   border-radius: 25px;
+} 
+
+/* itewms & offers */
+img{
+  width: 300px;
+  height: 300px;
+  border: 1px solid navy;
+  border-radius: 10px;
+}
+span{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+h1{
+  color: rgb(255, 0, 140);
+}
+#text-center{
+  color: rgb(253, 13, 13);
+  font-weight: bolder;
+  text-shadow: 2px 2px blue;
+}
+
+.col-xs-6 a img:hover{
+  border-radius: 10px;
+}
+/*ZoomIn Hover Effect*/
+.hover-zoomin a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+
+  }
+  .hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+   
+
+  }

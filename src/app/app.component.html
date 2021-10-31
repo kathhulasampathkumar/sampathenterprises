@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>toolbar document</title>
+  <style>
+    h1 {
+	text-align: center;
+	margin: 5px 0px ;
+	text-align: center;
+	font-size: 40px;
+	color: #ecf0f1;
+  text-shadow: 4px 4px rgb(247, 24, 198);
+	font-family: 'Cherry Swash', cursive;
+
+}
+.spacer {
+    flex: 1;
+  }
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* height: 40px; */
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row" id="sampathenterprizes">
+      
+
+<!-- Toolbar -->
+   <div class="col-sm-1"> <img id="logo" width="40px" alt="Angular Logo" style="margin-left: 20px;" src="./assets/images/samlogo.jpg"/></div>
+
+  <div class="col-sm-3"><h3>WELCOME TO...</h3></div>
+     <div class="col-sm-5"><h1>SAMPATH ENTERPRIZES</h1></div>
+     
+
+    <!-- <div class="spacer"></div> -->
+    <div class="col-sm-3">
+    <i class="fa fa-whatsapp fa-lg"></i>
+    <i class="fa fa-facebook fa-lg"></i>  
+    <i class="fa fa-twitter fa-lg"></i>  
+    <i class="fa fa-linkedin fa-lg"></i>  
+    <i class="fa fa-envelope fa-lg"></i> 
+    <i class="fa fa-telegram fa-lg"></i>   </div>
+    
+
+
+</div> </div>
+ <hr>
+
+<!-- </div> -->
+
+<!-- <h1> <span> KSK </span> TRADERS</h1> -->
+<!-- 
+<nav>
+
+	<a routerLink="/home">home</a>
+	<a routerLink="/items">items</a>
+	<a routerLink="/myorders">myorders</a>
+	<a routerLink="/smartlist">resale list</a>
+	<a routerLink="/offers">offers</a>
+
+  <a routerLink="/signin">signin</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a routerLink="/signup">create new</a>
+
+
+	<div class="animation start-home"></div>
+ 
+</nav>
+ -->
+
+<div class="container-fluid">
+  <div class="row" id="sam">
+    <div class="col-sm-2">	<a class="btn btn-primary" routerLink="/home">home</a></div>
+    <div class="col-sm-2">	<a class="btn btn-secondary" routerLink="/items">items</a></div>
+    <div class="col-sm-2">	<a class="btn btn-info" routerLink="/myorders">myorders</a></div>
+    <div class="col-sm-2">	<a class="btn btn-danger" routerLink="/smartlist">resale list</a></div>
+    <div class="col-sm-2">	<a class="btn btn-warning" routerLink="/offers">offers</a></div>
+    <div class="col-sm-2">  <a class="btn btn-success" routerLink="/signin">signin</a> </div>
+    <!-- <div class="col-sm-1">  <a class="btn btn-success" routerLink="/signin">signin</a> </div> -->
+   
+  </div> </div>
+  
+
+
+ <!-- <div class="col-sm-1">  <a class="btn btn-info" routerLink="/signup">signin</a> </div> -->
+
+
+<!-- <app-myorders></app-myorders> -->
+<!-- <app-trackorders></app-trackorders> -->
+
+
+<router-outlet></router-outlet>
+
+</body>
+
+
+</html>
+<style>
+ #sampathenterprizes
+  {
+    width: 100%;
+    
+    /* border: 2px solid gray; */
+
+  }
+  #sam .col-sm-2 .btn{
+    text-decoration: none;
+    margin: 3px 1px;
+    width: 200px;
+    z-index: auto;
+    text-transform: capitalize
+
+  }
+  
+  .col-sm-3 i{
+    padding: 10px;
+    color: white;
+  }
+
+ .col-sm-3 h3, #logo{
+   color: white;
+
+ }
+
+
+</style>
